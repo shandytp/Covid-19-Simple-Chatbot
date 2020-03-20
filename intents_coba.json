@@ -1,0 +1,67 @@
+{"intents": [
+    {"tag": "greeting",
+        "patterns": ["Hi","Hello","Greeting"],
+        "responses": ["Hello!","Hi!","Greetings too my friend","Heyo"],
+        "context_set": ""
+    },
+
+    {"tag": "goodbye",
+        "patterns": ["Goodbye","Have a Good day","Bye"],
+        "responses": ["Good bye","Have a nice day","Nice to see you!","Hope we can meet again someday"],
+        "context_set": ""
+    },
+
+    {"tag": "what",
+        "patterns": ["What is Covid-19?","What is Coronavirus?","Why it's called Coronavirus?","Tell me about Coronavirus","Tell me about Covid-19","I want to know about Coronavirus","I want to know about Covid-19","What is this virus?"],
+         "responses": ["Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV).","Like Pneumonia, but dangerous"],
+         "context_set": ""
+    },
+
+
+    {"tag": "who",
+        "patterns": ["What is your name?","Who are you?"],
+        "responses": ["My name is Roboragi","Just call me Roboragi!"]
+    },
+
+    {"tag": "who_can_be_affected",
+        "patterns": ["Who can be affected by this disease?","Is this disease is really dangerous for me?","Am i can be infected by this virus?","Am i can be infected by Coronavirus?","Am i can be infected by Covid-19?"],
+        "responses": ["Everyone can be affected by this disease","According to research, everyone can be infected by Covid-19","Covid-19 or Coronavirus can infected everyone, including you!","This virus can affect anyone, babies, children, adults, eldery!"]
+    },
+
+    {"tag": "symptoms",
+        "patterns": ["What is the symptoms?","What happen to my body if i suffer from this disease?"],
+        "responses": ["Common signs of infection include respiratory symptoms, fever, cough, shortness of breath and breathing difficulties.","In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney failure and even death."]
+    },
+
+    {"tag": "originate",
+        "patterns": ["Where did this virus come from?","Where Covid-19 come from?","When this virus was found?"],
+        "responses": ["This virus comes from Wuhan, China","This virus originated from Wuhan, China","Coronavirus disease (COVID-19) is a new strain that was discovered in 2019"]
+    },
+
+    {"tag": "when",
+        "patterns": ["When where we must to see a doctor?","Are we must to see a doctor?","Are the people who infected by this virus must to see a doctor?","What should i do if got infected by this disease?"],
+        "responses": ["As soon our body have the disease symptomps","Yes, we must to see a doctor","Immediately go to doctor or hospital"]
+       },
+
+    {"tag": "spread",
+        "patterns": ["How this virus spreads?","How this disease spreads?"],
+        "responses": ["The virus is thought to spread mainly from person-to-person.","Between people who are in close contact with one another (within about 6 feet)","Through respiratory droplets produced when an infected person coughs or sneezes.","The droplets can land in the mouths or noses of people who are nearby or possibly be inhaled into the lungs.","The virus that causes COVID-19 seems to be spreading easily and sustainably in the community (“community spread”) in some affected geographic areas. Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected."]
+       },
+
+    {"tag": "diagnosis",
+        "patterns": ["How doctor diagnose patient with Corona virus?","Check our body if we got infected by virus or not"],
+        "responses": ["Start with a sample being taken either from the nose or the back of the throat, or both, using a special swab","Using the CDC-developed diagnostic test, a negative result means that the virus that causes COVID-19 was not found in the person’s sample. In the early stages of infection, it is possible the virus will not be detected. For COVID-19, a negative test result for a sample collected while a person has symptoms likely means that the COVID-19 virus is not causing their current illness."]
+    },
+
+
+    {"tag": "cure",
+        "patterns": ["Is there any cure for this disease?","Is this disease can be cure?"],
+        "responses": ["For right now, there's no cure for this disease. But we can protect ourselves from this outbreak"]
+    },
+
+    {"tag": "protect",
+        "patterns": ["Is there any way to protect ourselves from this virus?","What should i do if i want avoid this virus?","I don't want to be infected"],
+        "responses": ["Wash your hands often with soap and water for at least 20 seconds, especially after you have been in a public place","Use hand sanitizer that contains at least 60% alcohol","Avoid touching your eyes, nose, and mouth","Avoid close contact, put distance between yourself and other people","Stay home if you're sick","Cover coughs and sneezes","Wear a mask if you are sick","Clean and disinfect frequently touched surfaces daily"]
+    }
+]
+}
