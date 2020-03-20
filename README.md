@@ -21,5 +21,5 @@ This Chatbot can give us information about Covid-19, for example :
 ## Run the Chatbot
 Open command line and run
 ```bash
-python chatbot.py
+python coba.py
 ```
